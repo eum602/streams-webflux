@@ -53,7 +53,8 @@ public class QuoteGeneratorServiceImpl implements QuoteGeneratorService {
                     quote.setInstant(Instant.now());
                     return quote;
                 })
-                .log("com.eum602.streamingstockquoteservice.QuoteGeneratorService");
+                .log("com.eum602.streamingstockquoteservice.QuoteGeneratorService"); //this is going to appear in the console
+        //when this service is called
     }
 
     private Quote updateQuote(Quote quote) {
