@@ -5,6 +5,6 @@ import com.eum602.streamingstockquoteservice.model.Quote;
 import reactor.core.publisher.Mono;
 
 public interface QuoteHistoryService {
-    Mono<QuoteHistory> saveQuoteHistory(Quote quote);
+    Mono<QuoteHistory> saveQuoteToMongo(Quote quote);
 
 }
